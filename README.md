@@ -36,22 +36,10 @@ doggos/
 └── dist/
     ├── css/
     └── js/
-    index.js
+    index.html
 ```
 
-## How to install
-
-```
-git clone https://github.com/clevelandrachel/doggos.git
-cd doggos
-node index.js <username>
-```
-
-## Example
-
-```
-node index.js clevelandrachel
-```
+## Schema
 
 returns example:
 
