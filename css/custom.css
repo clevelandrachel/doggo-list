@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,400i,500,700");
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+/** Body Element Styling **/
+body {
+  background: #fff;
+  color: #414141;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  -webkit-text-stroke: rgba(255, 255, 255, 0.01) 0.1px;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+a {
+  text-decoration: none;
+  -ms-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+a:hover,
+a:focus,
+a:active {
+  outline: medium none;
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+.clear {
+  border: 0;
+  clear: both;
+  height: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  margin: 0;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/**** NAV ****/
+nav.navbar-default {
+  background-color: rgba(0, 0, 0, 0.28);
+  border-color: rgba(0, 0, 0, 0.05);
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.navbar-default.affix {
+  background-color: #222;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+nav.navbar-default .navbar-brand:focus,
+nav.navbar-default .navbar-brand:hover {
+  color: #fff !important;
+  background-color: transparent;
+}
+
+nav.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav.navbar-default .navbar-nav > li > a:focus,
+nav.navbar-default .navbar-nav > li > a:hover {
+  color: #f05f40;
+  background-color: transparent;
+}
+
+nav.navbar-default .navbar-nav li a.active,
+nav.navbar-default .navbar-nav li a.active:focus,
+nav.navbar-default .navbar-nav li a.active:hover {
+  color: #f05f40;
+  background-color: transparent;
+}
+
+/**** NAV END ****/
+/**** HEADER ****/
+header {
+  min-height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+header,
+header .header-content {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+header .header-content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0 50px;
+  z-index: 10;
+}
+
+header .header-content .header-content-inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.41);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Slab", serif;
+}
+
+.header-content-inner h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.header-content-inner h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 20px auto 0;
+  background: #f05f40;
+}
+
+.header-content-inner p {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #e4e4e4;
+}
+/**** HEADER END ****/
+
+/**** LIST ****/
+.bg-color {
+  background: #f05f40;
+}
+
+section {
+  padding: 80px 0;
+  position: relative;
+  text-align: center;
+}
+
+.list-section h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.list-section h3:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 20px auto 0;
+  background: #c34d34;
+}
+
+.list-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+/* Style the header */
+.tbl_container {
+  padding: 30px 40px;
+  text-align: center;
+}
+
+/* Clear floats after the container */
+.tbl_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/**** LIST END ****/
