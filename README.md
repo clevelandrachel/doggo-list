@@ -13,16 +13,16 @@ I created this tracker application that allows for dynamic creation and updating
 
 Access URL	
 /login
-└── POST /username
+- POST /username
 /doggos-list
-└── GET /doggos/{id}  indexList -> getList() -> returns a list of doggos
+- GET /doggos/{id}  indexList -> getList() -> returns a list of doggos
 /doggo
-└── GET/doggo/{id}
-└── POST/doggo
-└── PUT /doggo/{id}
-└── DELETE /doggo/{id}
+- GET/doggo/{id}
+- POST/doggo
+- PUT /doggo/{id}
+- DELETE /doggo/{id}
 /doggodetails
-└── GET /doggosdetails/{id}  indexDoggo -> getDoggo() -> returns a doggo detail
+- GET /doggosdetails/{id}  indexDoggo -> getDoggo() -> returns a doggo detail
 	
 ## Site structure
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
