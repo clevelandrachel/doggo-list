@@ -1,5 +1,5 @@
 //===================================
-// index.js 
+// custom.js 
 //===================================
 /** 
   *    The Login object captures the username and returns it to the DOM
