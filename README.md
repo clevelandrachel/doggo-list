@@ -11,7 +11,8 @@ I created this tracker application that allows for dynamic creation and updating
 - Link to a detail page;
 - A list of all the doggos and sample doggo is dynamically generated through the following endpoints:
 
-Access URL	
+ACCESS URL
+
 /login
 - POST /username
 
