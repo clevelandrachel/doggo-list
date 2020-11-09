@@ -2,7 +2,7 @@
 
 ## Introduction
 Built locally with Node using Bootstrap framework for standards based HTML, CSS, JS, as well as its built-in testing frameworks for development.
-The list is using a appendChild method to quickly add items to the list. Would like to consider longterm local and backend storage. The site would use the end points to query the list of doggos. 
+The list is using a appendChild method to quickly add items to the list. Given no UI framework was mentioned, I took that as intentional and used vanilla code to demonstrate concepts. Would like to consider longterm local and backend storage. The site would use the end points to query the list of doggos. 
 
 I created this tracker application that allows for dynamic creation and updating for a list of doggos and link to doggo details, such as:
 
