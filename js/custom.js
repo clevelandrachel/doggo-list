@@ -27,34 +27,34 @@ btnLogin.onclick = function () {
 
 
 // Create "close" button and append it to each list item
-var ul = document.getElementsByTagName("li");
-var i;
+let ul = document.getElementsByTagName("li");
+let i;
 for (i = 0; i < ul.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  let span = document.createElement("SPAN");
+  let txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
   ul[i].appendChild(span);
 }
 
 // Click on a close button to hide from list
-var close = document.getElementsByClassName("close");
-var i;
+let close = document.getElementsByClassName("close");
+let i;
 for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
-    var div = this.parentElement;
+    let div = this.parentElement;
     div.style.display = "none";
   }
 }
 
 function newItem() {
-  var li = document.createElement("li");
+  let li = document.createElement("li");
   let ul = document.getElementById("users");
-  var name = document.getElementById("dName").value;
- let breed = document.getElementById("breed").value;
+  let name = document.getElementById("dName").value;
+  let breed = document.getElementById("breed").value;
   let link = document.getElementById("link").value;
 
-var n = document.createTextNode(name + " " + breed + " " + link);
+let n = document.createTextNode(name + " " + breed + " " + link);
   li.appendChild(n);
 
   if (name === ' ') {
@@ -63,8 +63,8 @@ var n = document.createTextNode(name + " " + breed + " " + link);
     document.getElementById("users").appendChild(li);
   }
   document.getElementById("dName").value = "";
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  let span = document.createElement("SPAN");
+  let txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
   li.appendChild(span);
