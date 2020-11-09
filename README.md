@@ -45,8 +45,6 @@ returns example:
 
 ```json
 {
-    "username": "clevelandrachel"
-    },
     "doggos-list": [
         {
             "title": "Doogos List of Dogs",
