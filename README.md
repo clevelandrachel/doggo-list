@@ -1,7 +1,7 @@
 # doggo
 
 ## Introduction
-Built with Node, the app utilizes Bootstrap framework for standards based HTML, CSS, JS, as well as its built-in testing frameworks for development.
+Built locally with Node using Bootstrap framework for standards based HTML, CSS, JS, as well as its built-in testing frameworks for development.
 The list is using a appendChild method to quickly add items to the list. 
 
 I created this tracker application that allows for dynamic creation and updating for a list of doggos and link to doggo details, such as:
