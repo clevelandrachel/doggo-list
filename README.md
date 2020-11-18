@@ -1,7 +1,7 @@
 # doggo
 
 ## Introduction
-Built locally with Node using Bootstrap for standards based HTML, CSS, JS, as well as its built-in testing for development. The list is using a appendChild method to quickly add items to the list. Given no UI framework was mentioned in the assignement, I took that as intentional and used vanilla code to demonstrate concepts. Next would be to discuss how it'll handle local and backend storage to decide how to serve content. The site would use the end points to query the list of doggos. 
+Built locally with Node using Bootstrap for standards based HTML, CSS, JS, as well as its built-in testing for development. The list is using an appendChild method to quickly add items to the list. Given no UI framework was mentioned in the assignement, I took that as intentional and used vanilla code to demonstrate concepts. Next would be to discuss how it'll handle local and backend storage to decide how to serve content. The site would use the end points to query the list of doggos. 
 
 I created this tracker application that allows for dynamic creation and updating for a list of doggos and link to doggo details, such as:
 
